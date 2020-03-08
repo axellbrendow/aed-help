@@ -1,0 +1,15 @@
+<table>
+<i>asd</i>
+<a>qwe</a>
+</table>
+
+<table>
+<i>asd</i>
+<a>qwe</a>
+</table>
+
+<table class="infobox">
+<i>asd</i>
+<a>qwe</a>
+</table>
+
