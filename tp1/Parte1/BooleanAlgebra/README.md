@@ -7,12 +7,15 @@ One example of a valid input: 3 1 1 1 and( or(A, B), not(C) )
 These are the railroad diagrams that represents what the interpreters can interpret:
 
 Operand:
+
 ![Railroad diagram for operands](https://i.imgur.com/lNYA5cD.png)
 
 Operator:
+
 ![Railroad diagram for operators](https://i.imgur.com/njFo9o0.png)
 
 Operation:
+
 ![Railroad diagram for operation](https://i.imgur.com/cbUCLRd.png)
 
 These images can be found on the interpreter_images folder. [Here](http://www.bottlecaps.de/rr/ui) is the tool used to create these diagrams.
