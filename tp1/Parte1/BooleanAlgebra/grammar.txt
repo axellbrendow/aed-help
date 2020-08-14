@@ -1,0 +1,5 @@
+Operand ::= 'A' | 'B' | 'C'
+
+Operator ::= 'not' | 'and' | 'or'
+
+Expression ::= Operand | Operator '(' Expression (',' Expression)* ')'
