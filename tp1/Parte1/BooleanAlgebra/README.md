@@ -4,6 +4,8 @@ The input they expect is of the form: &lt;number_of_operands&gt; &lt;operand1&gt
 
 One example of a valid input: 3 1 1 1 and( or(A, B), not(C) )
 
+And it's output: and( or(1, 1), not(1) ) -> and( 1, not(1) ) -> and( 1, 0 ) -> 0
+
 These are the railroad diagrams that represents what the interpreters can interpret:
 
 Operand:
