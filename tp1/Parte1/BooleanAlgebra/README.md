@@ -16,7 +16,7 @@ Operator:
 
 <img alt="Railroad diagram for Operator" src="./interpreter_images/Operator.png"></img>
 
-Operation:
+Expression:
 
 <img alt="Railroad diagram for Expression" src="./interpreter_images/Expression.png"></img>
 
