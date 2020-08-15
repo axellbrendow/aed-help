@@ -8,15 +8,15 @@ These are the railroad diagrams that represents what the interpreters can interp
 
 Operand:
 
-<img alt="Railroad diagram for Operand" src="./interpreter_images/Operand"></img>
+<img alt="Railroad diagram for Operand" src="./interpreter_images/Operand.png"></img>
 
 Operator:
 
-<img alt="Railroad diagram for Operator" src="./interpreter_images/Operator"></img>
+<img alt="Railroad diagram for Operator" src="./interpreter_images/Operator.png"></img>
 
 Operation:
 
-<img alt="Railroad diagram for Expression" src="./interpreter_images/Expression"></img>
+<img alt="Railroad diagram for Expression" src="./interpreter_images/Expression.png"></img>
 
 Grammar:
 
