@@ -87,7 +87,8 @@ public class BooleanAlgebra
 
         while (line.charAt(0) != '0')
         {
-            try (Scanner scan = new Scanner(line)) {
+            try (Scanner scan = new Scanner(line))
+            {
                 int numOperands = scan.nextInt();
                 int[] operands = new int[3];
     
