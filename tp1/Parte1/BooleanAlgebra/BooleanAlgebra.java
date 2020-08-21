@@ -90,7 +90,7 @@ public class BooleanAlgebra
             try (Scanner scan = new Scanner(line))
             {
                 int numOperands = scan.nextInt();
-                int[] operands = new int[3];
+                int[] operands = new int[numOperands];
     
                 for (int i = 0; i < numOperands; i++)
                     operands[i] = scan.nextInt();
