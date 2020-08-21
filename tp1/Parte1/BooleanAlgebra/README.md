@@ -4,15 +4,30 @@ The input they expect is of the form: &lt;number_of_operands&gt; &lt;operand1&gt
 
 One example of a valid input: 3 1 1 1 and( or(A, B), not(C) )
 
+And it's output: and( or(1, 1), not(1) ) -> and( 1, not(1) ) -> and( 1, 0 ) -> 0
+
 These are the railroad diagrams that represents what the interpreters can interpret:
 
 Operand:
-![Railroad diagram for operands](https://i.imgur.com/lNYA5cD.png)
+
+<img alt="Railroad diagram for Operand" src="./interpreter_images/Operand.png"></img>
 
 Operator:
-![Railroad diagram for operators](https://i.imgur.com/njFo9o0.png)
 
-Operation:
-![Railroad diagram for operation](https://i.imgur.com/cbUCLRd.png)
+<img alt="Railroad diagram for Operator" src="./interpreter_images/Operator.png"></img>
+
+Expression:
+
+<img alt="Railroad diagram for Expression" src="./interpreter_images/Expression.png"></img>
+
+Grammar:
+
+```
+Operand ::= 'A' | 'B' | 'C'
+
+Operator ::= 'not' | 'and' | 'or'
+
+Expression ::= Operand | Operator '(' Expression (',' Expression)* ')'
+```
 
 These images can be found on the interpreter_images folder. [Here](http://www.bottlecaps.de/rr/ui) is the tool used to create these diagrams.
