@@ -9,19 +9,19 @@ public class BooleanAlgebraCheating
             expression = expression.replace("not(0)", "1");
             expression = expression.replace("not(1)", "0");
 
-            expression = expression.replace("or(1)", "1");
-            expression = expression.replace("or(0)", "0");
             expression = expression.replace("or(0,0", "or(0");
             expression = expression.replace("or(0,1", "or(1");
             expression = expression.replace("or(1,0", "or(1");
             expression = expression.replace("or(1,1", "or(1");
+            expression = expression.replace("or(1)", "1");
+            expression = expression.replace("or(0)", "0");
 
-            expression = expression.replace("and(1)", "1");
-            expression = expression.replace("and(0)", "0");
             expression = expression.replace("and(0,0", "and(0");
             expression = expression.replace("and(0,1", "and(0");
             expression = expression.replace("and(1,0", "and(0");
             expression = expression.replace("and(1,1", "and(1");
+            expression = expression.replace("and(1)", "1");
+            expression = expression.replace("and(0)", "0");
         }
 
         return expression;
