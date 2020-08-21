@@ -52,7 +52,7 @@ public class BooleanAlgebra
         for (int i = findStart + find.length(); i < str.length(); i++)
             newStr += str.charAt(i);
 
-        return indexOf(find, newStr, 0) != -1 ? replace(find, replace, newStr) : newStr;
+        return indexOf(find, newStr, 0) == -1 ? newStr : replace(find, replace, newStr);
     }
 
     public static String evaluateExpression(String expression)
