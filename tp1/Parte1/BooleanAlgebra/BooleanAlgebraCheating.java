@@ -37,7 +37,7 @@ public class BooleanAlgebraCheating
             try (Scanner scan = new Scanner(line))
             {
                 int numOperands = scan.nextInt();
-                int[] operands = new int[numOperands];
+                int[] operands = new int[3];
     
                 for (int i = 0; i < numOperands; i++)
                     operands[i] = scan.nextInt();
