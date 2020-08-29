@@ -74,8 +74,6 @@ public class Html
         int substrIndex = 0;
         int index = -1;
 
-        if (substr.isEmpty() && !str.isEmpty()) index = 0;
-
         for (int i = start; substrIndex < substr.length() && i < str.length(); i++)
         {
             if (str.charAt(i) == substr.charAt(substrIndex))
