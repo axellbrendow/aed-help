@@ -4,7 +4,7 @@ public class BooleanAlgebra
 {
     public static int indexOf(String find, String str, int start)
     {
-        if (find.isEmpty()) return str.isEmpty() ? -1 : 0;
+        if (find.isEmpty()) return -1;
 
         int findStart = -1;
         int findIndex = -1;
