@@ -187,9 +187,11 @@ public class Html
             MyIO.print(" ô(" + countSubstr("" + (char) 244, html) + ")"); // ô
             MyIO.print(" û(" + countSubstr("" + (char) 251, html) + ")"); // û
 
-            MyIO.print(" consoante("
-                    + (countChars(consoantesMinusculas, html) - 3 * numTables)
-                    + ")");
+            int numConsoantesMinusculas = countChars(consoantesMinusculas, html)
+                    - 3 * numTables
+                    - 2 * numBrs;
+
+            MyIO.print(" consoante(" + numConsoantesMinusculas + ")");
 
             MyIO.print(" <br>(" + numBrs + ")");
             MyIO.print(" <table>(" + numTables + ")");
